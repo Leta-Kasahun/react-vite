@@ -1,0 +1,36 @@
+.probs-title{
+    background: steelblue;
+    text-align: center;
+    padding: 15px;
+}
+.probs-logo{
+    background-color: green;
+    height: 150px;
+    width: 150px;
+    padding: 15px;
+    margin: 6% 40% auto;
+    border-radius: 10px;
+}
+.testmonial-container{
+  background: #000;
+  color: white;
+  width: 60%;
+  height: 60%;
+  margin: 6% 25% auto;
+  padding: 4%;
+  border: 2px solid steelblue;
+}
+.probs-desc{
+    font-size: 1.25em;
+    padding: 6%;
+}
+.card-footer{
+    background: #232323;
+    color: white;
+    padding: 20px;
+    margin: 15px;
+}
+.card-subtitle{
+    text-align: center;
+    font-weight: bold;
+}

@@ -1,0 +1,28 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+h3{
+    text-align: center;
+    background-color:steelblue;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+}
+img{
+    background: #bee1f1;
+    width: 200px;
+    height: 200 px;
+    border: 2px solid palevioletred;
+    border-radius: 50%;
+    margin: 20% 30% auto;
+    padding: 15px;
+    box-shadow: 7px 8px 10px rgb(61, 61, 61);
+}
+img:hover{
+    cursor: pointer;
+    background-color: #71c6ed;
+
+} */

@@ -1,0 +1,22 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.container{
+    margin: 5% auto;
+    background-color: #c1c0c0;
+    
+}
+.title{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: steelblue;
+}
+.details{
+    padding: 2%;
+    font-size: 1.4em;
+    color: rgb(44, 43, 43);
+} */
