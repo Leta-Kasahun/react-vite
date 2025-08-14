@@ -1,0 +1,43 @@
+.mnu-container{
+    background:black;
+    max-width: 70%;
+    margin: auto;
+   
+    
+}
+.titl{
+    text-align: center;
+    font-weight: 700;
+    background: steelblue;
+    color: white;
+    margin-bottom: 20px;
+    padding: 15px;
+
+}
+.val-space{
+  background: rgb(142, 141, 140);
+  color: blue;
+  border-radius: 10px;
+  max-width: 60%;
+  padding: 10px;
+  margin: auto;
+  margin-bottom: 30px;
+  font-size: 2em;
+  text-align: center;
+
+}
+.btn-section{
+    max-width: 60%;
+    margin: auto;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;}
+
+  .manu-btn{
+    border: none;
+    padding: 20px;
+    margin: 5px;
+    font-size: 2em;
+    color: aliceblue;
+    border-radius: 8px;
+  }  

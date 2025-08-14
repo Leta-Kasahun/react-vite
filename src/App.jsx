@@ -1,3 +1,7 @@
+//taiwid testing
+import './index.css'
+import TailwindcssReact from "./TailwindcssReact";
+
 //classbased compnents
 import Testing from "./classComponenets/Testing";
 //functions based components
@@ -13,12 +17,24 @@ import Card from "./probs/Card";
 import CardFooter from "./probs/CardFooter";
 
 import './App.css';
+//bussiness card componests that made with tailwindcss
+import BusinessCardHeader from "./Businness-card/BusinessCardHeader";
+import BusinessCardBody from "./Businness-card/BusinessCardBody";
+import BusinessCardFooter from "./Businness-card/BusinessCardFooter";
+//bussiness card css styled practicing and calling ones  for multi users  using map
+import Bheader from './classComponenets/BusinessCard/Bheader';
+import BCard from './classComponenets/BusinessCard/BCard';
+import userData from './assets/usersData';
 
+//hook importing
+import CounterHook from './Hook/CounterHook';
+import IncDec from './Hook/IncDec';
 function App() {
 return (
  <div className="app">
   
   {/* <Testing/> */}
+  {/* <TailwindcssReact/> */}
   
    {/* <Test/> */}
     {/* <Intro/> */}
@@ -31,15 +47,40 @@ return (
     <Navbar/>
     <Content/>
     <Footer/> */}
-   <Cardprobs/>
+
+
+   {/* <Cardprobs/>
     <Card name="Abel Bereket"departmet="Software Engineering"address="Gojjam"batch="2014"/>
-    
     <Card name="Leta Kasahun"departmet="Software Engineering"address="Ambo"batch="2014"/>
-    
     <Card name="Hayle Bereket"departmet="Computor Sience"address="Hawasa"batch="2014"/>
-    
     <Card name="Abel Dessalegn"departmet="Information Technology"address="Addi Ababa"batch="2014"/>
-    <CardFooter/>
+    <CardFooter/> */}
+
+    {/* <BusinessCardHeader/>
+      <BusinessCardBody name="Teku Kasahun"position="student"email="teku@gmail.com"phone="+251934567898"/>
+   <BusinessCardFooter/>
+   
+    <BusinessCardHeader/> 
+      <BusinessCardBody name="Tamirat Dessalegn"position="Instractor"email="tame@gmail.com"phone="+251935567800"/>
+    <BusinessCardFooter/>
+   
+   <BusinessCardHeader/>
+      <BusinessCardBody name="Teklemariam Mamo"position="Inspector"email="tekle@gmail.com"phone="+251934567888"/>
+    <BusinessCardFooter/> */}
+
+  {/*css styled card and calling using map functions */}
+  {/* <Bheader/>
+   {
+     userData.map((data)=>{
+      return <BCard nth={data.color} name={data.name} position={data.position} email={data.email} phone={data.phone}/>
+     
+    })
+   } */
+   }
+
+
+ {/* <CounterHook/> */}
+  <IncDec/>
  </div>
 );}
 export default App

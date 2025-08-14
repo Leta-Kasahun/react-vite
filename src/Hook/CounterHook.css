@@ -1,0 +1,23 @@
+.count-title{
+    text-align: center;
+    padding: 10px;
+    color:white;
+    margin-bottom: 25px;
+}
+.display-count{
+   
+    font-size: 1.5em;
+    margin: auto;
+    max-width: 40%;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.count-btn{
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    width: 25%;
+    margin-left: 38%;
+}

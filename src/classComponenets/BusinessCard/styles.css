@@ -1,0 +1,68 @@
+
+.card-header{
+    background: rgb(103, 183, 248);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5em;
+}
+.card-container{
+    background: #605f5f;
+    color: white;
+    padding: 25px;
+   
+}
+.card{
+    
+        max-width: 60%;
+      
+        margin: auto;
+        padding: 10px;
+        font-size: 1.25em;
+        border-radius: 8px;
+        box-shadow: 10px 10px 10px black;
+
+
+}
+.card:hover{
+border: 10px solid steelblue;
+
+
+}
+.card-title{
+    text-align: center;
+    
+}
+.card-detail{
+    text-align: left;
+}
+.frist-color{
+    background: gold;
+}
+.second-color {
+    background: pink;
+}
+.third-color {
+    background: rgb(114, 218, 11);
+}
+.fourth-color {
+    background:rebeccapurple;
+}
+.fivth-color {
+    background: red;
+}
+.sixth-color {
+    background: brown;
+}
+.seventh-color {
+    background: aqua;
+}
+.eightth-color {
+    background: rgb(193, 246, 162);
+}
+.nineth-color {
+    background: rgb(193, 246, 162);
+}
+.tenth-color {
+    background: rgb(193, 246, 162);
+}
