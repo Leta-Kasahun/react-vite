@@ -4,6 +4,8 @@ import TailwindcssReact from "./TailwindcssReact";
 
 //classbased compnents
 import Testing from "./classComponenets/Testing";
+import Button from './components/Button';
+import SortingNumString from './components/SortingNumString';
 //functions based components
 import Test from "./components/Introduction/Test";
 import Intro from './components/Introduction/Intro';
@@ -29,6 +31,10 @@ import userData from './assets/usersData';
 //hook importing
 import CounterHook from './Hook/CounterHook';
 import IncDec from './Hook/IncDec';
+import ShoppingCart from './Hook/ShoppingCart';
+import ToDoList from './Hook/ToDoListApp/ToDoList';
+import ThemeToggle from './Hook/mostCommonMethods/usestate/ThemeToggle';
+import DisplayWelcome from './Hook/DisplayWelcome';
 function App() {
 return (
  <div className="app">
@@ -47,7 +53,8 @@ return (
     <Navbar/>
     <Content/>
     <Footer/> */}
-
+  {/* <Button/> */}
+  {/* <SortingNumString/> */}
 
    {/* <Cardprobs/>
     <Card name="Abel Bereket"departmet="Software Engineering"address="Gojjam"batch="2014"/>
@@ -80,7 +87,19 @@ return (
 
 
  {/* <CounterHook/> */}
-  <IncDec/>
+  {/* <IncDec/> */}
+{/* <ThemeToggle/> */}
+
+{/* <DisplayWelcome/> */}
+
+{/* <ShoppingCart/> */}
+<ToDoList/>
+
+
+
+
+
+
  </div>
 );}
 export default App
