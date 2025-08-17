@@ -1,0 +1,22 @@
+.header-container{
+    display: flex;
+}
+
+.logo-img{
+    margin: 5px;
+    display: inline-block;
+    margin-right: 45%;
+
+}
+.nav-bar{
+    display: flex;
+
+   
+}
+.nav-bar  li{
+  margin-left: 20px;
+}
+.titles{
+    text-align: center;
+    font-size: 2rem;
+}

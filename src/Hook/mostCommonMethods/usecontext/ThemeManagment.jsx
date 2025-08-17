@@ -20,10 +20,3 @@ function ThemeButton() {
   );
 }
 
-function App() {
-  return (
-    <ThemeProvider>
-      <ThemeButton />
-    </ThemeProvider>
-  );
-}

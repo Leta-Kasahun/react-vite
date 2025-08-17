@@ -1,0 +1,11 @@
+.c {
+    background: aliceblue;
+    border: 2px solid steelblue;
+    padding: 3%;
+    margin: 20% 10% auto;
+    text-align: center;
+    font-size: 2rem;
+  max-width: 90%;
+    font-weight: bold;
+
+}

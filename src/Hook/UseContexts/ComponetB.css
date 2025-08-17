@@ -1,0 +1,11 @@
+.b {
+    background: aliceblue;
+    border: 2px solid steelblue;
+    padding: 5%;
+    margin: 20% 10% auto;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    max-width: 90%;
+
+}

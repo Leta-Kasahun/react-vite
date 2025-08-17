@@ -31,10 +31,16 @@ import userData from './assets/usersData';
 //hook importing
 import CounterHook from './Hook/CounterHook';
 import IncDec from './Hook/IncDec';
-import ShoppingCart from './Hook/ShoppingCart';
 import ToDoList from './Hook/ToDoListApp/ToDoList';
-import ThemeToggle from './Hook/mostCommonMethods/usestate/ThemeToggle';
+
 import DisplayWelcome from './Hook/DisplayWelcome';
+
+
+//use Effect
+import Counter from './Hook/UseEffect/Counter';
+import DigitalClock from './Hook/UseEffect/DigitalClock';
+import ComponentA from './Hook/UseContexts/componentA';
+import ComponentD from './Hook/UseContexts/componentD';
 function App() {
 return (
  <div className="app">
@@ -45,8 +51,6 @@ return (
    {/* <Test/> */}
     {/* <Intro/> */}
     {/* these are basic of website header content  navbar and footer  */}
-    
-    
     
     {/*
      <Header/>
@@ -88,18 +92,17 @@ return (
 
  {/* <CounterHook/> */}
   {/* <IncDec/> */}
-{/* <ThemeToggle/> */}
+  {/* <Counter/> */}
 
 {/* <DisplayWelcome/> */}
 
-{/* <ShoppingCart/> */}
-<ToDoList/>
 
-
-
-
+{/* <DigitalClock/> */}
+{/* <ToDoList/> */}
+<ComponentA/>
 
 
  </div>
-);}
+);
+}
 export default App

@@ -1,0 +1,30 @@
+/* body{
+background-image: url('../../assets/image.png');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+margin: 0;
+opacity:1;
+}
+.clock-container{
+    backdrop-filter:blur(900px);
+    padding: 10px 0;
+
+
+}
+.clock{
+    color:steelblue;
+    font-size: 6.5rem;
+    font-weight: bold;
+    font-family: monospace;
+    text-shadow: 3px 3px 5px black;
+ 
+    display: flex;
+    flex: 1;
+    justify-content: center;
+  
+
+
+    
+} */
