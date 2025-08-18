@@ -1,0 +1,45 @@
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.product-card {
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.product-icon {
+    margin-bottom: 20px;
+    color: #86868b;
+}
+
+.product-card h3 {
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.product-card p {
+    font-size: 19px;
+    margin: 6px 0 20px;
+}
+
+.product-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 17px;
+}
+
+.product-links a {
+    color: #06c;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}

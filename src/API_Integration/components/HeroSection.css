@@ -1,0 +1,43 @@
+.hero {
+    background-color: #000;
+    color: #fff;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 44px;
+}
+
+.hero-content {
+    padding: 0 20px;
+}
+
+.hero-icon {
+    margin-bottom: 20px;
+    color: #86868b;
+}
+
+.hero h1 {
+    font-size: 56px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.hero h2 {
+    font-size: 28px;
+    font-weight: 400;
+    margin: 6px 0 20px;
+}
+
+.hero-links {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    font-size: 21px;
+}
+
+.hero-links a {
+    color: #2997ff;
+    text-decoration: none;
+}
